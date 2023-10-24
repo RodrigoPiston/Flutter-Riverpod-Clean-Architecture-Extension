@@ -1,6 +1,8 @@
 {
   "name": "flutter-riverpod-clean-architecture",
   "displayName": "Flutter Riverpod Clean Architecture",
+  "publisher": "RodrigoPiston",
+  "repository": "https://github.com/RodrigoPiston/Flutter-Riverpod-Clean-Architecture-Extension",
   "description": "",
   "version": "1.0.1",
   "engines": {
@@ -16,12 +18,20 @@
       {
         "command": "extension.createFeature",
         "title": "Flutter Riverpod Clean Arch: Create new Feature"
+      },
+      {
+        "command": "extension.createStateNotifierProvider",
+        "title": "Flutter Riverpod Clean Arch: Create StateNotifierProvider"
       }
     ],
     "menus": {
       "explorer/context": [
         {
           "command": "extension.createFeature",
+          "when": "explorerResourceIsFolder"
+        },
+        {
+          "command": "extension.createStateNotifierProvider",
           "when": "explorerResourceIsFolder"
         }
       ]
