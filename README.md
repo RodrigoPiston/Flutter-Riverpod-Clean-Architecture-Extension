@@ -18,7 +18,7 @@ This extension provides a streamlined way to scaffold out new features in a Flut
 
 ## Extension Settings
 
-This extension contributes the following settings:
+Customize the extension with the following settings:
 
 * `flutterRiverpodCleanArchitecture.dataDirectory`: Customize the name of the `data` directory.
 * `flutterRiverpodCleanArchitecture.domainDirectory`: Customize the name of the `domain` directory.
@@ -26,14 +26,15 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-Currently, there are no known issues. However, if you encounter any bugs or have feature requests, feel free to open an issue on the GitHub repository.
+No known issues at this time. For bugs or feature requests, please open an issue on the GitHub repository.
 
-## Release Notes
+## Open for Suggestions
+If you have any feature requests or suggestions, feel free to contact me.
 
-### 1.0.0
 
-Initial release of Flutter Riverpod Clean Architecture.
+### [View changelog](changelog)
 
-### 1.0.1
 
-- Added extension settings to allow customization of directory and file names.
+## TODO
+- [ ] Add tests 
+- [ ] Change the StateNotifierProvider command to match riverpod 2.0

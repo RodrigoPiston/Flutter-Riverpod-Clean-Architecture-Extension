@@ -57,7 +57,7 @@ function createStateNotifierProvider(basePath: string, providerName: string) {
 
   // Create provider file
   const providerContent = `${riverpodImport}
-  final ${formattedProviderName}Provider = StateNotifierProvider<${formattedProviderName}Notifier, ${formattedProviderName}State>(
+  final ${providerName}Provider = StateNotifierProvider<${formattedProviderName}Notifier, ${formattedProviderName}State>(
       (ref) => ${formattedProviderName}Notifier(),
   );
   `;
@@ -67,8 +67,7 @@ function createStateNotifierProvider(basePath: string, providerName: string) {
   );
 
   // Create state file
-  const stateContent = `${riverpodImport}
-  class ${formattedProviderName}State {
+  const stateContent = `class ${formattedProviderName}State {
       // Define state properties and constructors here
   }
   `;
