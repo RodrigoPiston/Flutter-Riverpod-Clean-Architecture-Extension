@@ -4,13 +4,22 @@
   "publisher": "RodrigoPiston",
   "repository": "https://github.com/RodrigoPiston/Flutter-Riverpod-Clean-Architecture-Extension",
   "description": "",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.83.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
+  "keywords": [
+    "flutter",
+    "riverpod",
+    "clean",
+    "architecture",
+    "generator"
+  ],
+  "license": "MIT",
+  "icon": "images/icon.png",
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {

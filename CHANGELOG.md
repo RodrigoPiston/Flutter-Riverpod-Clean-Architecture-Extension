@@ -2,7 +2,7 @@
 
 All notable changes to the "flutter-riverpod-clean-architecture" extension will be documented in this file.
 
-## [1.0.2] - 2023-11-5
+## [1.0.3] - 2023-11-5
 
 ### Added
 
@@ -13,13 +13,13 @@ All notable changes to the "flutter-riverpod-clean-architecture" extension will 
 
 - Updated the feature generation workflow to accommodate new options for file inclusion.
 
-## [1.0.1] - 2023-10-24
+## [1.0.2] - 2023-10-24
 
 ### Added
 
 - Settings to customize directory and file names within the generated structure.
 
-## [1.0.0] - 2023-10-23
+## [1.0.1] - 2023-10-23
 
 ### Released
 
